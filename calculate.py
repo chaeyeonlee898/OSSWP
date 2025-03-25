@@ -15,13 +15,13 @@ if __name__ == '__main__':
     
     ### 사용자 입력
     print('\n첫번째 숫자를 입력하세요.')
-    input1 = input('입력: ')
+    input1 = int(input('입력: '))
 
     print('\n원하는 사칙연산 기호 중 하나를 선택하세요. (+, -, *, /)')
     act = input('기호: ')
 
     print('\n두번째 숫자를 입력하세요.')
-    input2 = input('입력: ')
+    input2 = int(input('입력: '))
 
     ### 연산 수행
     if act == '+':
